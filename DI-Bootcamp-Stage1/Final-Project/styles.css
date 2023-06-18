@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f1f1f1;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 49px;
+  background-color: #0f6894;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-width: 1430px;
+}
+
+.navigation a {
+  text-decoration: none;
+  font-family: "Kaushan Script", cursive;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navigation a:hover {
+  color: #444444;
+  background-color: #fff;
+}
+
+main {
+  margin-top: 49px;
+  margin-bottom: 35px;
+  height: 100%;
+}
+
+.content {
+  position: relative;
+}
+
+.content img {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.img {
+  float: left;
+  margin: 7px 7px 7px 0;
+}
+
+.img1 {
+  float: right;
+  margin: 7px 7px 7px 0;
+}
+
+iframe {
+  position: absolute;
+  top: 49px;
+  left: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.text {
+  position: absolute;
+  top: 5vh;
+  left: 15vw;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.link-image {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: top;
+  padding: 20px;
+}
+
+.link-image img {
+  display: block;
+  margin: 0 auto;
+}
+
+.link-image span {
+  display: block;
+}
+
+
+footer {
+  background-color: #f1f1f1;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 35px;
+}
